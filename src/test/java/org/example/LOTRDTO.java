@@ -5,7 +5,7 @@ public class LOTRDTO {
 
     public LOTRDTO(String path) {
         LOTRReader lotrReader = new LOTRReader();
-        lotrpojo = lotrReader.readLOTRasJSON(path);
+        lotrpojo = lotrReader.readLOTRasJSON("https://ringsdb.com/api/public/packs/");
     }
 
     public Integer getStatus() {
@@ -15,8 +15,3 @@ public class LOTRDTO {
 }
 
 
-//fix
-//headers
-//github
-//presentation
-//readme
