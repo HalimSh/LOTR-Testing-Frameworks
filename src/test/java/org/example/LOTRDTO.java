@@ -1,5 +1,7 @@
 package org.example;
 
+import java.net.HttpURLConnection;
+
 public class LOTRDTO {
     private LOTRPOJO lotrpojo;
 

@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b9397dd-8a66-4487-b2d4-0e7277496683" name="Default Changelist" comment="Added a reader, POJO, DTO and a tester">
+    <list default="true" id="5b9397dd-8a66-4487-b2d4-0e7277496683" name="Default Changelist" comment="Added ReadMe, the Header method and more test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HeaderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HeaderDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LOTRDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LOTRDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LOTRReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LOTRReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LOTRTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LOTRTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/HeaderDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/HeaderDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/LOTRDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/LOTRDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/LOTRReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/LOTRReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/LOTRTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/LOTRTester.class" afterDir="false" />
@@ -64,7 +64,7 @@
       <recent name="C:\Users\Rimon\testing Frameworks\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LOTRTester">
+  <component name="RunManager" selected="JUnit.LOTRTester.checkStatusCode">
     <configuration name="LOTRTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LOTR-Testing-Frameworks" />
       <useClassPathOnly />
@@ -119,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LOTRTester" />
         <item itemvalue="JUnit.LOTRTester.checkStatusCode" />
+        <item itemvalue="JUnit.LOTRTester" />
         <item itemvalue="JUnit.LOTRTester.checkLOTRJSONData" />
       </list>
     </recent_temporary>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593753082023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added ReadMe, the Header method and more test">
+      <created>1593766714382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593766714382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,12 +167,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added a reader, POJO, DTO and a tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a reader, POJO, DTO and a tester" />
+    <MESSAGE value="Added ReadMe, the Header method and more test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ReadMe, the Header method and more test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="0" key="#LOTRTester" timestamp="1593765882057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="286" y="0" key="#LOTRTester.checkStatusCode" timestamp="1593774483075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="286" y="0" key="#LOTRTester.checkStatusCode/0.0.1366.728@0.0.1366.728" timestamp="1593774483075" />
     <state x="286" y="0" key="#LOTRTester/0.0.1366.728@0.0.1366.728" timestamp="1593765882057" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593717038066">
       <screen x="0" y="0" width="1366" height="728" />
@@ -175,34 +187,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593752029753" />
-    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1593766641687">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1593774529881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593766641687" />
-    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1593766641686">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593774529881" />
+    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1593774529880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593766641686" />
-    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1593766641686">
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593774529880" />
+    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1593774529880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593766641686" />
-    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1593766641686">
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593774529880" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1593774529880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593766641686" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1593694533016">
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593774529880" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1593770526486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593694533016" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1593753270576">
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593770526486" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1593766777482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593753270576" />
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593753216625">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593766777482" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593766754213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1593753216624" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1593766754213" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593764417431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

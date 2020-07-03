@@ -12,51 +12,57 @@ public class LOTRTester {
     @Test
     void checkStatusCode() { Assertions.assertEquals(200, lotrdto.getStatus()); }
 
+
+
+
+
+
+
+
     @Test
     void checkLOTRName() {
-        Assertions.assertEquals("Core Set", lotrpojo.getName());
+        Assertions.assertEquals("Core Set", headerDTO.getName());
     }
 
     @Test
     void checkLOTRCode() {
-        Assertions.assertEquals("Core", lotrpojo.getCode());
+        Assertions.assertEquals("Core", headerDTO.getCode());
     }
 
     @Test
     void checkLOTRPosition() {
-        Assertions.assertEquals(1, lotrpojo.getPosition());
+        Assertions.assertEquals(1, headerDTO.getPosition());
     }
 
     @Test
     void checkLOTRCyclePosition() {
-        Assertions.assertEquals(1, lotrpojo.getCyclePosition());
+        Assertions.assertEquals(1, headerDTO.getCyclePosition());
     }
 
     @Test
     void checkLOTRAvailable() {
-        Assertions.assertEquals("2011-04-20", lotrpojo.getAvailable());
+        Assertions.assertEquals("2011-04-20", headerDTO.getAvailable());
     }
 
     @Test
     void checkLOTRKnown() {
-        Assertions.assertEquals(73, lotrpojo.getKnown());
+        Assertions.assertEquals(73, headerDTO.getKnown());
     }
 
     @Test
     void checkLOTRTotal() {
-        Assertions.assertEquals(73, lotrpojo.getTotal());
+        Assertions.assertEquals(73, headerDTO.getTotal());
     }
 
     @Test
     void checkLOTRUrl() {
-        Assertions.assertEquals("https://ringsdb.com/set/Core", lotrpojo.getUrl());
+        Assertions.assertEquals("https://ringsdb.com/set/Core", headerDTO.getUrl());
     }
 
     @Test
     void checkLOTRID() {
-        Assertions.assertEquals(1, lotrpojo.getId());
+        Assertions.assertEquals(1, headerDTO.getId());
     }
 
-    @Test
-    void checkHeaders() { Assertions.assertEquals("name, code, position, cycle_position, available, known, total, url, id", headerDTO);}
+
 }

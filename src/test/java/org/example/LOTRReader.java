@@ -12,11 +12,12 @@ import static java.lang.String.valueOf;
 
 public class LOTRReader {
     static ObjectMapper objectMapper = new ObjectMapper();
+    private HttpURLConnection httpURLConnection;
 
     public static LOTRPOJO readLOTRasJSON(String path) {
         LOTRPOJO lotrpojo = new LOTRPOJO();
         try {
-            //objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+            objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
             lotrpojo = objectMapper.readValue(new URL(path), LOTRPOJO.class);
         } catch (IOException e) {
             e.printStackTrace();
@@ -24,15 +25,14 @@ public class LOTRReader {
         return lotrpojo;
     }
 
-    public String getHeader(String path) {
-        String header = "";
+    public HttpURLConnection getHeader(String path) {
+
         try {
             URL url = new URL(path);
-            URLConnection urlConnection = url.openConnection();
-            header = String.valueOf(urlConnection.getHeaderFields());
+            HttpURLConnection httpurlConnection = (HttpURLConnection) url.openConnection();
         } catch (IOException e) {
             e.printStackTrace();
-        } return header;
+        } return httpURLConnection;
     }
 
     public String getStatus(String path) {
